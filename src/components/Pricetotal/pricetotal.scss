@@ -1,0 +1,115 @@
+$breakpoint-phone: 576px;
+.rightSide {
+  .reducerSide {
+    width: 300px;
+    height: 260px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    @media (max-width: $breakpoint-phone) {
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    .total {
+      font-weight: 500;
+      font-size: 20px;
+      color: #1D2123;
+    }
+
+    .price {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1rem 0;
+
+      .op-name {
+        color: #333333
+      }
+
+      .op-count {
+        color: #1D2123
+      }
+    }
+
+    .delivery {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .op-name {
+        color: #333333
+      }
+
+      .op-count {
+        color: #1D2123
+      }
+    }
+
+    .gift-packet {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1rem 0;
+
+      .op-name {
+        color: #333333
+      }
+
+      .op-count {
+        color: #1D2123
+      }
+    }
+
+    .promo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .op-name {
+        color: #333333
+      }
+
+      .op-count {
+        color: #1D2123
+      }
+    }
+
+    .divider {
+      background: #828282;
+      height: 1px;
+      width: 100%;
+      margin: 1rem 0;
+    }
+
+    .total-price {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .op-name {
+        font-weight: 500;
+        color: #1D2123;
+      }
+
+      .op-count {
+        font-weight: 500;
+        color: #DB2C66;
+      }
+    }
+  }
+
+}
+
+.confirm-order {
+  width: 300px;
+  border-radius: 16px;
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+  border: 1px solid #f5af19;
+  height: 48px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
